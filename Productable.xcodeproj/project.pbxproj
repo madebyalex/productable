@@ -13,6 +13,12 @@
 		11CFFDF524D490630060CD86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CFFDF324D490630060CD86 /* Main.storyboard */; };
 		11CFFDF724D490660060CD86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CFFDF624D490660060CD86 /* Assets.xcassets */; };
 		11CFFDFA24D490660060CD86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CFFDF824D490660060CD86 /* LaunchScreen.storyboard */; };
+		11CFFE0824D497A30060CD86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFFE0724D497A30060CD86 /* AppDelegate.swift */; };
+		11CFFE0A24D497A30060CD86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFFE0924D497A30060CD86 /* SceneDelegate.swift */; };
+		11CFFE0C24D497A30060CD86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFFE0B24D497A30060CD86 /* ViewController.swift */; };
+		11CFFE0F24D497A30060CD86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CFFE0D24D497A30060CD86 /* Main.storyboard */; };
+		11CFFE1424D497A50060CD86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CFFE1224D497A50060CD86 /* LaunchScreen.storyboard */; };
+		11CFFE1A24D4996C0060CD86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CFFDF624D490660060CD86 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +30,24 @@
 		11CFFDF624D490660060CD86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11CFFDF924D490660060CD86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11CFFDFB24D490660060CD86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11CFFE0524D497A30060CD86 /* ProductableAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductableAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11CFFE0724D497A30060CD86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11CFFE0924D497A30060CD86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		11CFFE0B24D497A30060CD86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11CFFE0E24D497A30060CD86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11CFFE1324D497A50060CD86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11CFFE1524D497A50060CD86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		11CFFDE724D490630060CD86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11CFFE0224D497A30060CD86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,7 +60,9 @@
 		11CFFDE124D490630060CD86 = {
 			isa = PBXGroup;
 			children = (
+				11CFFE1924D499210060CD86 /* Shared */,
 				11CFFDEC24D490630060CD86 /* Productable */,
+				11CFFE0624D497A30060CD86 /* ProductableAdmin */,
 				11CFFDEB24D490630060CD86 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				11CFFDEA24D490630060CD86 /* Productable.app */,
+				11CFFE0524D497A30060CD86 /* ProductableAdmin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,11 +83,31 @@
 				11CFFDEF24D490630060CD86 /* SceneDelegate.swift */,
 				11CFFDF124D490630060CD86 /* ViewController.swift */,
 				11CFFDF324D490630060CD86 /* Main.storyboard */,
-				11CFFDF624D490660060CD86 /* Assets.xcassets */,
 				11CFFDF824D490660060CD86 /* LaunchScreen.storyboard */,
 				11CFFDFB24D490660060CD86 /* Info.plist */,
 			);
 			path = Productable;
+			sourceTree = "<group>";
+		};
+		11CFFE0624D497A30060CD86 /* ProductableAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				11CFFE0724D497A30060CD86 /* AppDelegate.swift */,
+				11CFFE0924D497A30060CD86 /* SceneDelegate.swift */,
+				11CFFE0B24D497A30060CD86 /* ViewController.swift */,
+				11CFFE0D24D497A30060CD86 /* Main.storyboard */,
+				11CFFE1224D497A50060CD86 /* LaunchScreen.storyboard */,
+				11CFFE1524D497A50060CD86 /* Info.plist */,
+			);
+			path = ProductableAdmin;
+			sourceTree = "<group>";
+		};
+		11CFFE1924D499210060CD86 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				11CFFDF624D490660060CD86 /* Assets.xcassets */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +130,23 @@
 			productReference = 11CFFDEA24D490630060CD86 /* Productable.app */;
 			productType = "com.apple.product-type.application";
 		};
+		11CFFE0424D497A30060CD86 /* ProductableAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11CFFE1624D497A50060CD86 /* Build configuration list for PBXNativeTarget "ProductableAdmin" */;
+			buildPhases = (
+				11CFFE0124D497A30060CD86 /* Sources */,
+				11CFFE0224D497A30060CD86 /* Frameworks */,
+				11CFFE0324D497A30060CD86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProductableAdmin;
+			productName = ProductableAdmin;
+			productReference = 11CFFE0524D497A30060CD86 /* ProductableAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +158,9 @@
 				ORGANIZATIONNAME = Alexander;
 				TargetAttributes = {
 					11CFFDE924D490630060CD86 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					11CFFE0424D497A30060CD86 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
@@ -116,6 +179,7 @@
 			projectRoot = "";
 			targets = (
 				11CFFDE924D490630060CD86 /* Productable */,
+				11CFFE0424D497A30060CD86 /* ProductableAdmin */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +195,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		11CFFE0324D497A30060CD86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CFFE1424D497A50060CD86 /* LaunchScreen.storyboard in Resources */,
+				11CFFE1A24D4996C0060CD86 /* Assets.xcassets in Resources */,
+				11CFFE0F24D497A30060CD86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,6 +215,16 @@
 				11CFFDF224D490630060CD86 /* ViewController.swift in Sources */,
 				11CFFDEE24D490630060CD86 /* AppDelegate.swift in Sources */,
 				11CFFDF024D490630060CD86 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11CFFE0124D497A30060CD86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CFFE0C24D497A30060CD86 /* ViewController.swift in Sources */,
+				11CFFE0824D497A30060CD86 /* AppDelegate.swift in Sources */,
+				11CFFE0A24D497A30060CD86 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +243,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				11CFFDF924D490660060CD86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		11CFFE0D24D497A30060CD86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11CFFE0E24D497A30060CD86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11CFFE1224D497A50060CD86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11CFFE1324D497A50060CD86 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,6 +416,42 @@
 			};
 			name = Release;
 		};
+		11CFFE1724D497A50060CD86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZN234ZPN46;
+				INFOPLIST_FILE = ProductableAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexnuzhnyi.ProductableAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11CFFE1824D497A50060CD86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZN234ZPN46;
+				INFOPLIST_FILE = ProductableAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexnuzhnyi.ProductableAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -333,6 +469,15 @@
 			buildConfigurations = (
 				11CFFDFF24D490660060CD86 /* Debug */,
 				11CFFE0024D490660060CD86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11CFFE1624D497A50060CD86 /* Build configuration list for PBXNativeTarget "ProductableAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11CFFE1724D497A50060CD86 /* Debug */,
+				11CFFE1824D497A50060CD86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
