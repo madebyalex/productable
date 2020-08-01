@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>236450924796-6a2531p9ueublf7t98opl0tsqt6t5ml1.apps.googleusercontent.com</string>
+	<string>236450924796-hkrg0dt1dibve37icm84nj8g7dn0r9r6.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.236450924796-6a2531p9ueublf7t98opl0tsqt6t5ml1</string>
+	<string>com.googleusercontent.apps.236450924796-hkrg0dt1dibve37icm84nj8g7dn0r9r6</string>
 	<key>API_KEY</key>
 	<string>AIzaSyBSQk5x4Yg8ZN3OnyLVApkbrqy7gaYv358</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.alexnuzhnyi.Productable</string>
+	<string>com.alexnuzhnyi.ProductableAdmin</string>
 	<key>PROJECT_ID</key>
 	<string>productable-476ab</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:236450924796:ios:fa7aff92f40bbfc94aef79</string>
+	<string>1:236450924796:ios:01b0cb416b620b1b4aef79</string>
 	<key>DATABASE_URL</key>
 	<string>https://productable-476ab.firebaseio.com</string>
 </dict>
