@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -98,10 +98,10 @@
 				11CFFDED24D490630060CD86 /* AppDelegate.swift */,
 				11CFFDEF24D490630060CD86 /* SceneDelegate.swift */,
 				11CFFDF124D490630060CD86 /* ViewController.swift */,
-				11723FEC24D4DB86007715E9 /* GoogleService-Info.plist */,
 				11A0C6BD24D4A04900B08BCF /* LoginStoryboard.storyboard */,
 				11CFFDF324D490630060CD86 /* Main.storyboard */,
 				11CFFDF824D490660060CD86 /* LaunchScreen.storyboard */,
+				11723FEC24D4DB86007715E9 /* GoogleService-Info.plist */,
 				11CFFDFB24D490660060CD86 /* Info.plist */,
 			);
 			path = Productable;
