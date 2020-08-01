@@ -7,12 +7,20 @@
 		<key>Productable.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>26</integer>
+=======
+			<integer>27</integer>
+>>>>>>> 9df0ed9b9eb655fe02a56429437c249657dfca52
 		</dict>
 		<key>ProductableAdmin.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>27</integer>
+=======
+			<integer>28</integer>
+>>>>>>> 9df0ed9b9eb655fe02a56429437c249657dfca52
 		</dict>
 	</dict>
 </dict>
