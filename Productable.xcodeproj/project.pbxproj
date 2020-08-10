@@ -22,6 +22,8 @@
 		11CFFE0F24D497A30060CD86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CFFE0D24D497A30060CD86 /* Main.storyboard */; };
 		11CFFE1424D497A50060CD86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11CFFE1224D497A50060CD86 /* LaunchScreen.storyboard */; };
 		11CFFE1A24D4996C0060CD86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11CFFDF624D490660060CD86 /* Assets.xcassets */; };
+		11EE45B424D70B0B0054001A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE45B324D70B0B0054001A /* LoginVC.swift */; };
+		11EE45B624D70B230054001A /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE45B524D70B230054001A /* RegisterVC.swift */; };
 		28CEBB255FADF208DDA4B93F /* Pods_ProductableAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591F15A8F0F8E56AF7A68896 /* Pods_ProductableAdmin.framework */; };
 		8BB8544C6F44A6E116BB5CE2 /* Pods_Productable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606F504FF1EDCB125C5803A2 /* Pods_Productable.framework */; };
 /* End PBXBuildFile section */
@@ -45,6 +47,8 @@
 		11CFFE0E24D497A30060CD86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11CFFE1324D497A50060CD86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11CFFE1524D497A50060CD86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11EE45B324D70B0B0054001A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		11EE45B524D70B230054001A /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		42E74E7502565D388B89A772 /* Pods-Productable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Productable.release.xcconfig"; path = "Pods/Target Support Files/Pods-Productable/Pods-Productable.release.xcconfig"; sourceTree = "<group>"; };
 		591F15A8F0F8E56AF7A68896 /* Pods_ProductableAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProductableAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		606F504FF1EDCB125C5803A2 /* Pods_Productable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Productable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,16 +101,11 @@
 		11CFFDEC24D490630060CD86 /* Productable */ = {
 			isa = PBXGroup;
 			children = (
-				11EE45B224D709560054001A /* Storyboards */,
 				11EE45B124D709480054001A /* Model */,
 				11EE45B024D709400054001A /* View */,
 				11EE45AF24D709250054001A /* Controller */,
-				11CFFDED24D490630060CD86 /* AppDelegate.swift */,
+				11EE45B224D709560054001A /* Storyboards */,
 				11CFFDEF24D490630060CD86 /* SceneDelegate.swift */,
-				11CFFDF124D490630060CD86 /* ViewController.swift */,
-				11CFFDF324D490630060CD86 /* Main.storyboard */,
-				11A0C6BD24D4A04900B08BCF /* LoginStoryboard.storyboard */,
-				11CFFDF824D490660060CD86 /* LaunchScreen.storyboard */,
 				11844D7E24D631B300C2CE04 /* GoogleService-Info.plist */,
 				11CFFDFB24D490660060CD86 /* Info.plist */,
 			);
@@ -138,6 +137,10 @@
 		11EE45AF24D709250054001A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				11EE45B324D70B0B0054001A /* LoginVC.swift */,
+				11EE45B524D70B230054001A /* RegisterVC.swift */,
+				11CFFDED24D490630060CD86 /* AppDelegate.swift */,
+				11CFFDF124D490630060CD86 /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -159,6 +162,9 @@
 		11EE45B224D709560054001A /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				11CFFDF324D490630060CD86 /* Main.storyboard */,
+				11A0C6BD24D4A04900B08BCF /* LoginStoryboard.storyboard */,
+				11CFFDF824D490660060CD86 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -367,7 +373,9 @@
 			files = (
 				11CFFDF224D490630060CD86 /* ViewController.swift in Sources */,
 				11CFFDEE24D490630060CD86 /* AppDelegate.swift in Sources */,
+				11EE45B424D70B0B0054001A /* LoginVC.swift in Sources */,
 				11CFFDF024D490630060CD86 /* SceneDelegate.swift in Sources */,
+				11EE45B624D70B230054001A /* RegisterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
